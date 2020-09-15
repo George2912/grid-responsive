@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.conteiner {
+    width: 100%;
+}
+.row > div {
+    text-align: center;
+}
+.padding {
+    padding: 0.1rem;
+}
+@media (min-width: 576px) {
+    .col-small-12 {
+        width: calc(100% / 1)
+    }
+    .col-small-12 > div {
+        background-color: #b3bdf1;
+    }
+    .col-small-11 {
+        width: calc(100% / 12 * 11);
+    }
+    .col-small-11 > div {
+        background-color: teal;
+    }
+    .col-small-10 {
+        width: calc(100% / 12 * 10);
+    }
+    .col-small-10 > div {
+        background-color: tomato;
+    }
+    .col-small-9 {
+        width: calc(100% / 12 * 9);
+    }
+    .col-small-9 > div {
+        background-color: turquoise;
+    }
+}
+@media (min-width: 768px) { 
+    .col-md-8 {
+        width: calc(100% / 12 * 8);
+    }
+    .col-md-8 > div {
+        background-color: aqua;
+    }
+    .col-md-7 {
+        width: calc(100% / 12 * 7);
+    }
+    .col-md-7 > div {
+        background-color: violet;
+    }
+    .col-md-6 {
+        width: calc(100% / 12 * 6);
+    }
+    .col-md-6 > div {
+        background-color: yellow;
+    }
+    .col-md-5 {
+        width: calc(100% / 12 * 5);
+    }
+    .col-md-5 > div {
+        background-color: teal;
+    }
+}
+@media (min-width: 991.98px) {
+    .col-lg-4 {
+        width: calc(100% / 12 * 4);
+    }
+    .col-lg-4 > div {
+        background-color: brown;
+        color: white;
+    }
+    .col-lg-3 {
+        width: calc(100% / 12 * 3);
+    }
+    .col-lg-3 > div {
+        background-color: yellow;
+    }
+    .col-lg-2 {
+        width: calc(100% / 12 * 2);
+    }
+    .col-lg-2 > div {
+        background-color: teal;
+    }
+    .col-lg-1 {
+        width: calc(100%/ 12 * 1);
+    }
+    .col-lg-1 > div {
+        background-color: violet;
+    }
+ }
